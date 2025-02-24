@@ -8,6 +8,7 @@ import companyRoute from "./routes/company.route.js";
 import jobRoute from "./routes/job.route.js";
 import applicationRoute from "./routes/application.route.js";
 import path from "path";
+import { fileURLToPath } from "url"; 
 
 dotenv.config({});
 
@@ -20,19 +21,21 @@ app.use(cookieParser());
 const corsOptions = {
     origin: 'http://localhost:5173',
     credentials: true
-}
+};
 
 app.use(cors(corsOptions));
 
 const PORT = process.env.PORT || 3000;
 
 
-// All Api's
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// All API routes
 app.use("/api/user", userRoute);
 app.use("/api/company", companyRoute);
 app.use("/api/job", jobRoute);
 app.use("/api/application", applicationRoute);
-
 
 if (process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(__dirname, "../frontend/dist")));
@@ -42,8 +45,7 @@ if (process.env.NODE_ENV === "production") {
     });
 }
 
-
 app.listen(PORT, () => {
     connectDB();
     console.log(`Server running at port ${PORT}`);
-})
+});
