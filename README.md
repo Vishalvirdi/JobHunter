@@ -1,7 +1,5 @@
 # 🏢 JobHunter - Job Portal Web App
 
-![JobHunter Banner](https://github.com/user-attachments/assets/f29afe06-1cec-4697-8c73-003eb40ec7e4)
-
 JobHunter is a modern job portal web application built with **React, Tailwind CSS, Node.js, Express, and ShadCN UI**. It helps job seekers find jobs and employers post job openings with an intuitive UI.
 
 ## 🚀 Features
@@ -12,8 +10,10 @@ JobHunter is a modern job portal web application built with **React, Tailwind CS
 ✅ Responsive UI with **Tailwind CSS & ShadCN UI**  
 ✅ Secure backend with **Node.js & Express**  
 
-## 🎥 Demo Video
-🔗 [Watch Demo](https://github.com/user-attachments/assets/f29afe06-1cec-4697-8c73-003eb40ec7e4)
+## 🎥 Demo Video  
+https://github.com/user-attachments/assets/f29afe06-1cec-4697-8c73-003eb40ec7e4  
+
+> If the video does not load, click [here](https://github.com/user-attachments/assets/f29afe06-1cec-4697-8c73-003eb40ec7e4) to watch it.  
 
 ## 🛠️ Tech Stack
 - **Frontend:** React.js, Tailwind CSS, ShadCN UI  
