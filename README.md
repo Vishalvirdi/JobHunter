@@ -53,3 +53,43 @@ npm start
 cd frontend
 npm run dev
 
+#floder structure
+📁 Project Root
+├── 📁 frontend
+│   ├── 📁 public
+│   │   ├── 📄 index.html
+│   │   ├── 📁 assets
+│   │   │   ├── 📁 images
+│   │   │   └── 📁 icons
+│   ├── 📁 src
+│   │   ├── 📁 components
+│   │   │   ├── 📁 common
+│   │   │   └── 📁 features
+│   │   ├── 📁 pages
+│   │   ├── 📁 services
+│   │   ├── 📁 hooks
+│   │   ├── 📁 utils
+│   │   ├── 📁 styles
+│   │   ├── 📁 store (for state management)
+│   │   ├── 📄 App.js
+│   │   └── 📄 index.js
+│   ├── 📄 package.json
+│   └── 📄 README.md
+│
+├── 📁 backend
+│   ├── 📁 src
+│   │   ├── 📁 config
+│   │   ├── 📁 controllers
+│   │   ├── 📁 middleware
+│   │   ├── 📁 models
+│   │   ├── 📁 routes
+│   │   ├── 📁 services
+│   │   ├── 📁 utils
+│   │   └── 📄 app.js
+│   ├── 📁 tests
+│   ├── 📄 package.json
+│   └── 📄 README.md
+│
+├── 📄 .gitignore
+└── 📄 README.md
+
